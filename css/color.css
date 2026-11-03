@@ -1,0 +1,491 @@
+@charset "UTF-8";
+/*clear fix*/
+/*
+$mq-breakpoints: (
+    xs3: 320px,
+    xs2: 375px,
+    xs: 414px,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xl2: 1280px,
+    xl3: 1366px,
+);
+*/
+/*
+ * Mixin for placeholder
+ * @include placeholderColor(#00ff00);
+ */
+/*================
+ホワイト01
+================*/
+/*フォント*/
+body, #header_info .time, #header_info .tel, .roomBtn button,
+.realtimeBtn button, .lg-sub-html, .lg-counter {
+  font-family: "EB Garamond-Symbols", "YuMincho", "游明朝", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+h1, .nav_head li a p:last-of-type,
+#bread-crumb-list li, #top_access .shop_info table tr td,
+#top_instagram .instagram_inner .instagram_left .ig_acc, #header_info p,
+.instagram_left .ig_follow, .ban, .address, #copyright small, .foot_menu a, .c-panel__tag li, .c-panel__flow ul li, .room, .room a, .room__title, .c-panel__size, .shopinfo_box table td, .topevent_in .event_inner .event_body, .topnews_in .news_body p, .event_update, .news_update, .bottom_info_inner p a span, .c-panel__realtime .realtime_status, .realtime_subStatus, #index #leave a, #index #leave > span, .prof_r .realtime_info .r_comment, .prof_r .realtime_info .r_status, .prof_r .size, .prof_r h3, .prof_r .profile-movie__title, p.roomAll, p.realtimeAll,
+#recruit_inner table td, #hotel_inner table tr:not(:first-of-type), #contact_inner table td, .campaign_body, .c-panel__tag li.is_active, .profile_taglist li.is_active, #newslist_inner .comment, .profile_data_list dl, .message_area dd, .prof_table, #campaign_inner .campaign_box .news_border article .event_head span, #edetail #campaign_inner .campaign_box .titlebar span, .foot_in .foot_left .holiday_txt, #h_menu_list .holiday,
+#diaryDetail_inner .diaryItem .body,
+#diaryDetail_inner .diaryItem .title,
+#diaryDetail_inner .diaryItem .author,
+#diaryDetail_inner .ladies_profile_card__size,
+#diaryDetail_inner .ladies_profile_card__name,
+#diaryDetail_inner .ladies_profile_card__link,
+#diaryDetail_inner .diarybtn_set .listbtn,
+#diaryDetail_inner .diaryItem .title span,
+#diarys_inner .diaryItem a .diary_info.prof_frame,
+.diarySlide .diary-topslide .diaryItem a .diary_info.prof_frame,
+.prof_r .diarySlide.profile_diary_slide .diary_profile {
+  font-family: "EB Garamond-Symbols", "Yu Gothic", "Noto Sans JP", serif;
+}
+
+#index .enterbtn, #concept .tatekaki_title::before,
+.gallery_loop li, .ranking_loop li, .instagram_inner .instagram_frame::before {
+  font-family: "Playfair", serif;
+}
+
+.topNewface .swiper-pagination-number, .topNewface .newfaceone .swiper-container .center_bnr .newface_article .js-slide_num, .topNewface .newface_inner .swiper-container .swiper-wrapper .swiper-slide .js-slide_num, .ranking_box_inner .r_place, .prof_r .prof_name .eng_name {
+  font-family: "EB Garamond", serif;
+}
+
+/*フォント色*/
+.c-langBox .btn, .c-langBox, .c-langBox .list a, #h_menu_list li p:first-of-type, #index .enterbtn, .beginner, #header_info .shop_info, #header_info p, #content h2, .nav_head li a, #bread-crumb-list a span, .ranking_frame .ranking_title .titlebar, #waiting, .realtimeBtn button.mixitup-control-active, .pickup_frame .pickup_inner .swiper-wrapper .swiper-slide .c-panel__profile, .banner_area h3, #top_gallery .gallery_inner .photo_info, #system_inner .articleWrap dl,
+#system_inner .articleWrap h3, #top_instagram .instagram_inner .instagram_left, #header_info .reception, .ranking_box_inner .r_place, .topNewface .newfaceone .swiper-container .center_bnr .newface_article .js-slide_num, #top_instagram .instagram_inner .instagram_frame::before, #top_system #system_inner .play_article, #system #wrap #system_inner .play_article, p.roomAll, .shopinfo_box table td, p.realtimeAll, .status__title, .prof_r .realtime_info .r_comment p, .c-ladysNum, .basic_article p, .prof_table tbody tr td, .prof_r .realtime_info .r_status .r_status__text p, #schedule #day_btns li a, .newsbtn_set .listbtn, #recruit_inner,
+#hotel_inner table td, #hotel_inner h3, #bread-crumb-list li, #contact #wrap h3, .shopinfo_box h3, #contact_inner table tr td, .header_inner .sp_time, #index #leave a, .topNewface .newface_inner .swiper-container .swiper-wrapper .swiper-slide .js-slide_num, #h_menu_list .address, .holiday, #diaryDetail_inner .ladies_profile_card__body .ladies_profile_card__prof, #diaryDetail_inner .diarybtn_set .listbtn, #diaryDetail_inner .ladies_profile_card__link {
+  color: #000;
+}
+
+body, .c-langBox .btn p, #js_nav_fixed.m_fixed .nav_head li a,
+#concept h2, #concept h2 span, #top_grouplist .group_inner h2,
+#topevent .topnews_frame h2, #topnews .topnews_frame h2,
+.realtimeBtn button, #recruit_inner table tr th,
+#hotel_inner table tr th, #contact_inner table tr th, #diaryDetail_inner .diaryItem .title span, #diarys_inner .diaryItem a .diary_info.prof_frame, .diarySlide .diary-topslide .diaryItem a .diary_info.prof_frame, #diarys_inner .diaryItem a .diary_info.prof_frame .title, .diarySlide .diary-topslide .diaryItem a .diary_info.prof_frame .title, .diarySlide .diary-topslide .diaryItem a .diary_info.prof_frame .name, #diarys_inner .diaryItem a .diary_info.prof_frame .name, .c-panel__realtime .realtime_status {
+  color: #fff;
+}
+
+.snsWidget h2, .topNewface .newface_info h2, #schedule #day_btns li.btn_on a {
+  color: #fff !important;
+}
+
+#edetail #campaign_inner .campaign_box .titlebar span,
+#campaign_inner .campaign_box .news_border article .event_head span,
+#newslist_inner .news_update, .realtimeBtn button:disabled,
+.event_update, .news_update {
+  color: #7D7D7D;
+}
+
+.ban, #copyright, h1, #leave > span, #h_menu_list li a {
+  color: #7A7A7A;
+}
+
+/*枠色*/
+#index header, #top_gallery .galleryslide .swiper-slide, .galleryslide .center_bnr .swiper-slide, .realtime_on .realtime_bg, .realtimeBtn__inner,
+#system_inner .articleWrap::before, footer,
+.roomBtn, .bottom_info_inner {
+  border-image-source: linear-gradient(to left, #3d3d3d, #dbdbdb, #3d3d3d) !important;
+}
+
+#newslist_inner .newsbox::before, #campaign #campaign_inner .campaign_box::before, #topevent .topnews_frame::before, .shopinfo_box__txt::before, #top_grouplist .group_inner::before, #schedule #day_btns li, footer, .prof_r .prof_frame, #diaryDetail_inner .ladies_profile_card, #diaryDetail_inner .diaryItem::before {
+  border-image-source: linear-gradient(to left, #858585, #D1D1D1, #858585);
+  border-image-slice: 1;
+}
+
+.topevent_in .event_inner .news_head,
+.profile_data_list dl, .prof_r h3, .prof_r .message_area dt,
+#campaign_inner .campaign_box .news_border article .event_head span,
+.realtime_on .c-panel__realtime, #system_inner .articleWrap dl,
+.shopinfo_box table, .shopinfo_box table tr, .shopinfo_box table tr th,
+#recruit_inner tbody, #recruit_inner tbody tr th, #recruit_inner tbody tr td, .prof_r .realtime_info .r_comment,
+#hotel_inner table tr th, #hotel_inner table tr td, #contact_inner table, #contact_inner table tr, .c-panel__profile, .prof_r .realtime_info .r_status, #contact_inner table tr th, #contact_inner table tr td, #diaryDetail_inner .diaryItem .author {
+  border-color: #7D7D7D !important;
+}
+
+.c-panel__flow, .realtime_on .c-panel__realtime,
+.prof_r h3, .prof_r .message_area dt,
+.topevent_in .event_inner .news_head,
+.profile_data_list dl {
+  border-color: #858585;
+}
+
+.ranking_frame .ranking_title::before, .ranking_frame .ranking_title::after,
+.instagram_left .ig_follow, .instagram_frame,
+.realtimeBtn button.mixitup-control-active,
+.prof_table tbody tr th, .prof_table tbody tr, .prof_table tbody tr:first-of-type th, .prof_table tbody tr td {
+  border-color: #000 !important;
+}
+
+/*ページャ*/
+#list_pager .pager {
+  background: rgba(255, 255, 255, 0.85);
+}
+#list_pager .pager li {
+  font-family: "EB Garamond-Symbols", "Yu Gothic", "Noto Sans JP", serif;
+}
+#list_pager .pager li a::after {
+  background: #101010;
+}
+#list_pager .pager li a, #list_pager .pager .pager-status, #list_pager .pager li.pager-ellipsis span {
+  color: #000;
+}
+
+#list_pager .pager li.pager-first, #list_pager .pager li.pager-last {
+  color: #fff;
+}
+
+#list_pager .pager li.pager-next, #list_pager .pager li.pager-prev, #list_pager .pager li.pager-first a, #list_pager .pager li.pager-last a {
+  color: #000;
+  border-color: #000;
+}
+
+/*グルグル枠ボタン*/
+#pagetop a, .and_more, .and_more--tel, #h_menu_btn {
+  color: #fff;
+}
+#pagetop a::before, .and_more::before, .and_more--tel::before, #h_menu_btn::before {
+  background: -webkit-gradient(linear, right top, left top, from(#3d3d3d), color-stop(#dbdbdb), to(#3d3d3d)) border-box;
+  background: -webkit-linear-gradient(right, #3d3d3d, #dbdbdb, #3d3d3d) border-box;
+  background: linear-gradient(to left, #3d3d3d, #dbdbdb, #3d3d3d) border-box;
+}
+
+.and_more p::before, .and_more--tel p::before, #h_menu_btn .burgerbg,
+.newsbtn_set .listbtn::after {
+  background: #000;
+}
+
+/*タグ色*/
+.c-panel__tag li.is_active,
+.prof_r .prof_frame .profile_taglist li.is_active {
+  background: #6b6b6b;
+  color: #CFCFCF;
+}
+
+/*背景色*/
+body, .c-langBox .list a, .c-langBox .item a,
+.m_fixed .nav_head, footer, #index header,
+.head_in, .c-panel__realtime .realtime_status,
+#concept span::after, .topNewface .newface_info h2 span::after,
+.ig_follow::after, .ig_acc::after, .prof_table tbody tr td,
+p.roomAll::after, p.realtimeAll::after, #fade, .shopinfo_box__txt,
+#top_system #system_inner .articleWrap, #system #wrap #system_inner .articleWrap, #recruit_inner tbody tr td,
+.shopinfo_box table tr td, .prof_r .realtime_info .r_comment,
+.prof_r .realtime_info .r_status .r_status__text, #recruit_inner tr,
+#hotel_inner tr td, #contact_inner tr, #h_menu_btn .burgerbg, #h_menu,
+.realtimeBtn button.mixitup-control-active,
+#js_nav_fixed.m_fixed .nav_head li a::after,
+.profile_data_list dt::before, #recruit_inner tbody tr, #hotel_inner table tr td, #contact_inner table tr, #diaryDetail_inner .ladies_profile_card, #diaryDetail_inner .diarybtn_set {
+  background: #fff;
+}
+
+.c-ladysNum, .pickup_frame .nopickup::before, #fade, #realtime .btn_on,
+.realtimeBtn__inner, #waiting, #top_system, #system #wrap, #system_inner .articleWrap, .roomBtn, #top_instagram .instagram_inner .instagram_frame .link_insta .noinsta_box {
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.realtime_on .realtime_bg, .realtime_bg,
+#campaign #campaign_inner .campaign_frame,
+.prof_r, #top_grouplist, #campaign #campaign_inner .campaign_frame, #newslist_inner .news_frame, .bottom_info_inner, #concept::before, #topevent, #recruit_inner tbody tr,
+.m_fixed .nav_head, .c-panel__realtime .realtime_status, #campaign #campaign_inner .campaign_frame, .realtimeBtn button, .header_inner, .bottom_info p::before, #diaryDetail_inner .diary_frame, .diarySlide .diary-topslide .diaryItem a .diary_info.prof_frame .date, #diarys_inner .diaryItem a .diary_info.prof_frame .date {
+  background: rgba(0, 0, 0, 0.7);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+
+.c-langBox .title, .shopinfo_box table tr th, #recruit_inner tbody tr th,
+#hotel_inner table tr th, #contact_inner table tr th, .bottom_info p::before, .diarybtn_set .listbtn::after,
+#diaryDetail_inner .diarybtn_set::before, #diaryDetail_inner .diarybtn_set .listbtn:hover::after {
+  background: #292929;
+}
+
+#topschedule .today,
+#concept::before,
+.topNewface {
+  background: rgba(24, 24, 24, 0.8);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+}
+
+#marquee, .swiper-pagination-bullet-active, .shopinfo_box table tr th,
+.ranking_box_inner .c-panel__frame, #recruit_inner table tr th,
+#hotel_inner table tr th, #contact_inner table tr th {
+  background: #474747 !important;
+}
+
+#header_info.tel::after, .nav_head li a::after,
+#top_instagram .instagram_inner .ig_follow::after,
+#top_instagram .instagram_inner .ig_acc::after,
+.prof_r .realtime_info .r_status .r_status__title,
+p.roomAll::after, p.realtimeAll::after, #pagetop a span,
+#header_info .tel::after, .prof_table tbody tr:first-of-type th {
+  background: #000;
+}
+
+header nav .underline:before, .realtime_block__wrapper .realtime_title::after {
+  background: -webkit-gradient(linear, right top, left top, from(#3d3d3d), color-stop(#dbdbdb), to(#3d3d3d));
+  background: -webkit-linear-gradient(right, #3d3d3d, #dbdbdb, #3d3d3d);
+  background: linear-gradient(to left, #3d3d3d, #dbdbdb, #3d3d3d);
+}
+
+.swiper-pagination-bullet, .news_border::before, #h_menu_btn .burgerbg span {
+  background: #858585;
+}
+
+#index, #top_access, .shopinfo_box, #recruit_inner,
+#hotel_inner, #contact_inner {
+  background: url(../images/bg_repeat02.png) repeat #fff;
+}
+
+/*画像ホバー*/
+.topslide .swiper-wrapper .swiper-slide a:hover img,
+#top_gallery .galleryslide .swiper-slide a:hover img,
+.c-panel__image a:hover img, .c-panel a:hover img,
+.info_banner ul li a:hover img, #top_grouplist .group_inner ul li a:hover img {
+  opacity: 1;
+  -webkit-filter: saturate(30%) grayscale(30%);
+          filter: saturate(30%) grayscale(30%);
+}
+
+/*svg色*/
+.and_more p svg, .and_more--tel p svg, #pagetop a span svg,
+.bottom_info p a span svg path, .sns_menu svg path {
+  fill: #fff !important;
+}
+
+/*まとめはここまで*/
+/*ハイライト色(PC)*/
+::-moz-selection {
+  background: #8B8B8B;
+  color: #fff;
+}
+::selection {
+  background: #8B8B8B;
+  color: #fff;
+}
+
+#index #enter {
+  background: #281F14;
+}
+#index #enter::before, #index #enter::after {
+  background: rgba(0, 0, 0, 0.75);
+}
+#index .enterbtn {
+  background: -webkit-gradient(linear, left bottom, left top, from(#7e7e7e), color-stop(#cacaca), to(#272727));
+  background: -webkit-linear-gradient(bottom, #7e7e7e, #cacaca, #272727);
+  background: linear-gradient(0deg, #7e7e7e, #cacaca, #272727);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#index #leave {
+  background: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(25%, #fff), color-stop(50%, #fff), color-stop(75%, #fff), to(transparent));
+  background: -webkit-linear-gradient(left, transparent 0%, #fff 25%, #fff 50%, #fff 75%, transparent 100%);
+  background: linear-gradient(90deg, transparent 0%, #fff 25%, #fff 50%, #fff 75%, transparent 100%);
+}
+
+.pickup_frame .swiper-button-next,
+.diarySlide .diary-topslide .swiper-button-next {
+  background: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E") no-repeat rgba(0, 0, 0, 0.6) center/10px;
+}
+
+.pickup_frame .swiper-button-prev,
+.diarySlide .diary-topslide .swiper-button-prev {
+  background: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l20.1%2C19.9L22%2C44L0%2C22L0%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E") no-repeat rgba(0, 0, 0, 0.6) center/10px;
+}
+
+.nav_head li::after {
+  background: #464646;
+}
+
+#js_nav_fixed.m_fixed .nav_head {
+  background: rgba(0, 0, 0, 0.6) !important;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+
+.c-panel, .newscorner, .realtime_block__wrapper .realtime_title {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+#concept .tatekaki_title::before {
+  color: #636363;
+}
+
+#top_gallery {
+  background: url(../images/bg_repeat01.png) repeat #fff;
+}
+#top_gallery .gallery_loop li {
+  color: #E6E6E6;
+}
+
+.c-panel {
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.c-panel__profile {
+  border-image-source: none;
+}
+
+.c-langBox .btn::after {
+  border-top: 6px solid #fff;
+}
+.c-langBox .item a:hover {
+  background: #e5e5e5;
+}
+
+#h_menu_overlay {
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+
+.newscorner {
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+}
+
+#topevent {
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+}
+
+.news_border:hover::after {
+  background: #dbdbdb;
+}
+
+#top_ranking, #ranking_area {
+  background: rgba(255, 255, 255, 0.8);
+}
+#top_ranking .ranking_loop li, #ranking_area .ranking_loop li {
+  color: #949494;
+}
+
+#top_instagram .instagram_inner .follow_btn img {
+  -webkit-filter: brightness(0) !important;
+          filter: brightness(0) !important;
+}
+
+#top_grouplist {
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+}
+
+footer {
+  background: -webkit-gradient(linear, right top, left top, from(#000), color-stop(#2B2B2B), to(#000));
+  background: -webkit-linear-gradient(right, #000, #2B2B2B, #000);
+  background: linear-gradient(to left, #000, #2B2B2B, #000);
+}
+
+.prof_r .realtime_info .r_comment::before {
+  border-top: 10px solid #7D7D7D;
+}
+.prof_r .realtime_info .r_comment::after {
+  border-top: 10px solid #fff;
+}
+
+.prof_table tbody th {
+  background: #7D7D7D;
+}
+
+/*スクロールバー*/
+.day_frame::-webkit-scrollbar {
+  background: #bababa;
+}
+.day_frame::-webkit-scrollbar-thumb {
+  background-color: #000;
+}
+
+#h_menu_btn.active .burgerbg span {
+  background: #575757;
+}
+
+.realtimeBtn button {
+  border-color: #1C1A16;
+  background: #1C1A16;
+}
+
+#schedule #day_btns li {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+#schedule .btn_on {
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .header_inner {
+    background: #fff;
+  }
+  #contents_nav {
+    border-image-source: linear-gradient(to left, #3d3d3d, #dbdbdb, #3d3d3d);
+  }
+  body.is-fixed #contents_nav .header_inner {
+    border-image-source: linear-gradient(to left, #3d3d3d, #dbdbdb, #3d3d3d);
+    background: rgba(255, 255, 255, 0.6);
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+  }
+  .bottom_info p a {
+    color: #fff;
+  }
+  #topnews::before {
+    background: rgba(0, 0, 0, 0.7);
+    -webkit-backdrop-filter: blur(2px);
+            backdrop-filter: blur(2px);
+  }
+  #topnews .topnews_frame::before {
+    border-image-source: linear-gradient(to left, #858585, #D1D1D1, #858585);
+  }
+  .topNewface {
+    background: none;
+  }
+  .topNewface h2 {
+    color: #000 !important;
+  }
+  .newscorner {
+    background: none;
+    -webkit-backdrop-filter: none;
+            backdrop-filter: none;
+  }
+  .topNewface .newface_info h2 {
+    color: #000 !important;
+  }
+  #index #container::before {
+    content: "";
+    background: url(../images/bg_repeat02.png) repeat #fff;
+    background-size: 60%;
+  }
+  #container::before {
+    content: "";
+    background-color: #fff;
+  }
+  .topNewface .newface_info::before {
+    background: rgba(24, 24, 24, 0.8);
+    -webkit-backdrop-filter: blur(2px);
+            backdrop-filter: blur(2px);
+  }
+  .shopinfo_box__txt {
+    border: 1px solid;
+    border-image-source: linear-gradient(to left, #858585, #D1D1D1, #858585);
+    border-image-slice: 1;
+  }
+  #access #access_inner .shopinfo_box {
+    background: url(../images/bg_repeat02.png) repeat #fff;
+  }
+  #list_pager .pager li.pager-next, #list_pager .pager li.pager-prev {
+    background: none;
+  }
+  #list_pager .pager li.pager-first, #list_pager .pager li.pager-last {
+    border: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  #concept {
+    background: rgba(0, 0, 0, 0.8);
+    -webkit-backdrop-filter: blur(2px);
+            backdrop-filter: blur(2px);
+  }
+}/*# sourceMappingURL=color.css.map */
