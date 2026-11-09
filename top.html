@@ -512,7 +512,7 @@
 
       <section id="topschedule" data-set_order="5">
       <h2>TODAY'S SCHEDULE<span>本日の出勤</span></h2>
-            <div class="today"><p>11/03</p><span>[ tue ]</span></div>
+            <div class="today"><p id="today-md">11/03</p><span id="today-wd">[ tue ]</span></div><script>(function(){var f=new Intl.DateTimeFormat("en-US",{timeZone:"Asia/Tokyo",month:"2-digit",day:"2-digit",weekday:"short"});var ps={};f.formatToParts(new Date()).forEach(function(x){ps[x.type]=x.value});document.getElementById("today-md").textContent=ps.month+"/"+ps.day;document.getElementById("today-wd").textContent="[ "+ps.weekday.toLowerCase()+" ]";})();</script>
       <div class="topschedule_bg">
         <div class="topschedule_in js-mixit">
           <div class=" c-panel realtime_off ">
